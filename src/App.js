@@ -30,7 +30,7 @@ function App() {
   }, []);
   return (
     <>
-      <Router>
+      <Router> hgj 
         <div className="app-route">
           <Navbar />
 
