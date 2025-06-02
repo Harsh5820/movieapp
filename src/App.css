@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&family=Sen:wght@400..800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sen", sans-serif;
+}
+
+:root{
+  --pink-bg-color: rgb(252,54,94);
+  --light-black-bg-color: rgb(54, 54, 54);
+  --black-bg-color:rgb(29, 29, 29);
+}
+
+.app-route{
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}

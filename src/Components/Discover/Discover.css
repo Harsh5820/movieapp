@@ -1,0 +1,59 @@
+.discover {
+    height: 100%;
+    width: 80%;
+    background-color: var(--black-bg-color);
+}
+
+.discover-header {
+    width: 100%;
+}
+
+.discover-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin: 20px 10px;
+}
+
+.discover-movies-container {
+    width: 99%;
+    margin: 20px;   
+}
+
+.discover-movie-header {
+    display: flex;
+}
+
+.discover-movie-title {
+    color: white;
+    font-size: 2rem;
+    font-size: bold;
+    margin: 10px 20px;
+}
+
+.discover-movie-adult-checkbox {
+    color: white;
+    font-size: 1.3rem;
+    margin: 10px 20px;
+}
+
+.discover-movie-adult-input {
+    margin: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+.discover-movies-card-container {
+    display: flex;
+    overflow-x: auto;
+    height: 320px;
+    margin: 20px 0px;
+}
+
+.discover-movies-card-container::-webkit-scrollbar {
+    display: none;
+}

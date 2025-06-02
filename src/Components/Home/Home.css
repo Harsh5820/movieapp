@@ -1,0 +1,145 @@
+.home {
+    height: 100%;
+    width: 80%;
+    background-color: var(--black-bg-color);
+}
+
+.home-search-section {
+    width: 100%;
+    padding: 20px;
+}
+
+.home-search-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.home-search-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.home-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.home-search-box {
+    padding-left: 20px;
+    height: 40px;
+    width: 500px;
+    border-radius: 20px;
+    border: none;
+}
+
+.home-search-submit-btn {
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 90px;
+    margin: 5px;
+    border-radius: 25px;
+    background-color: var(--pink-bg-color);
+    cursor: pointer;
+}
+
+.home-trending-section {
+    padding: 0px 20px;
+    width: 100%;
+}
+
+.home-trending-header {
+    display: flex;
+}
+
+.home-trending-header-title {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.home-trending-header-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--black-bg-color);
+    margin: 0px 15px;
+    border-radius: 20px;
+    /* background-color: white; */
+    background: transparent;
+}
+
+.active-btn {
+    color: white;
+    background-color: var(--pink-bg-color);
+}
+
+.inactive-btn {
+    color: black;
+    background-color: white;
+}
+
+.home-trending-header-btn {
+    height: 38px;
+    width: 70px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.trending-movies-container {
+    display: flex;
+    overflow-x: auto;
+    height: 320px;
+    margin: 20px 0px;
+}
+
+.trending-movies-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.trending-movie-card {
+    height: 300px;
+    width: 25%;
+    border-radius: 12px;
+    background-color: white;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.trending-movie-card-img-box {
+    height: 250px;
+    width: 200px;
+}
+
+.trending-movie-card-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.trending-movie-card-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+}

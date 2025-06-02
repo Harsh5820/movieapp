@@ -1,0 +1,132 @@
+.movie-detail-page {
+    width: 100%;
+}
+
+.movie-detail-page-header {
+    width: 100%;
+}
+
+.movie-detail-page-main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: var(--black-bg-color);
+}
+
+.movie-detail-img-box {
+    height: 500px;
+    width: 35%;
+    margin: 45px;
+}
+
+.movie-detail-img {
+    height: 100%;
+    width: 100%;
+}
+
+.movie-detail-information {
+    width: 65%;
+    padding-top: 10%;
+}
+
+.movie-detail-header {
+    display: flex;
+}
+
+.movie-detail-header-title {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.movie-detail-header-watchlist-btn {
+    margin-left: 100px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.inwatchlist {
+    background-color: var(--black-bg-color);
+    border: 1px solid white;
+}
+
+.outwatchlist {
+    border: none;
+    background-color: var(--pink-bg-color);
+}
+
+.movie-detail-header-watchlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.movie-detail-header-desc {
+    display: flex;
+    margin-top: 15px;
+    color: white;
+}
+
+.rating-bar-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.rating-bar {
+    width: 60%;
+    height: 15px;
+    background-color: rgb(56, 54, 54);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.rating-bar-fill {
+    height: 100%;
+    background-color: var(--pink-bg-color);
+    transition: width 0.3s ease;
+    border-radius: 10px;
+}
+
+.movie-detail-vote {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: var(--pink-bg-color);
+}
+
+.movie-detail-header-tagline {
+    color: grey;
+    padding-top: 10px;
+}
+
+.overview-title {
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding-top: 10px;
+}
+
+.movie-detail-header-overview-desc {
+    color: white;
+    width: 50%;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.movie-detail-status-lan {
+    display: flex;
+    color: white;
+    padding-top: 30px;
+}
+
+.movie-detail-status {
+    padding-right: 50px;
+}

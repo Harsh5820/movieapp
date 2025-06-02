@@ -1,0 +1,14 @@
+.search-page{
+    width: 80%;
+    background-color: var(--black-bg-color);
+}
+
+.search-page-empty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    height: 100%;
+    width: 100%;
+}

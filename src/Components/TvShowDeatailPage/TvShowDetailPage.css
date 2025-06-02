@@ -1,0 +1,122 @@
+.tvshow-detail-page{
+    /* margin-left: 270px; */
+    width: 80%;
+    background-color: var(--black-bg-color);
+}
+
+.tvshow-detail-page-heading{
+    color: white;
+    display: flex;
+}
+
+.tvshow-detail-page-heading-poster{
+    width: 30%;
+    height: 30%;
+    margin: 10px;
+}
+
+.tvshow-detail-page-heading-img{
+   width: 100%;
+   height: 100%;
+}
+
+.tvshow-detail-page-heading-information{
+    width: 70%;
+    height: 40%;
+}
+
+.tvshow-detail-page-heading-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 20px 10px ;
+}
+
+.tvshow-detail-page-heading-tagline{
+    font-size: 1.1rem;
+    color: grey;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.tvshow-rating-bar-container{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.tvshow-rating-bar {
+    width: 60%;
+    height: 15px;
+    background-color: rgb(56, 54, 54);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.tvshow-rating-bar-fill {
+    height: 100%;
+    background-color: var(--pink-bg-color);
+    transition: width 0.3s ease;
+    border-radius: 10px;
+}
+
+.tvshow-vote{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: var(--pink-bg-color);
+}
+
+.tvshow-detail-page-heading-overview{
+    margin: 20px 10px;
+    width: 80%;
+}
+.tvshow-detail-page-heading-total-seasons{
+    margin: 10px;
+}
+
+.tvshow-detail-page-heading-episode-count{
+    margin: 10px;
+}
+
+.tvshow-detail-page-heading-genre{
+    margin: 10px;
+    display: flex;
+}
+
+.tvshow-deatil-page-seasons-card-container{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    /* margin-left: 150px; */
+}
+
+.tvshow-deatil-page-seasons-card-container::-webkit-scrollbar{
+    display: none;
+}
+
+.tvshow-detail-page-season-card{
+    margin: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.tvshow-detail-page-season-card-img-box{
+    height: 300px;
+    width: 200px;
+}
+
+.tvshow-detail-page-season-card-img{
+    width: 100%;
+    height: 100%;
+}
+
+.tvshow-detail-page-season-card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
